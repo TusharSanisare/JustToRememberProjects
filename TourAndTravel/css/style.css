@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,700;1,400&family=Poppins:wght@200&display=swap');
+
+
+
+html{
+    font-size: 62.50%
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: auto;
+    width: 100%;
+    
+
+}
+
+
+/* ########################################################### */
+.main{
+    position: relative;
+    height: 95vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.598),rgba(0, 0, 0, 0.575)) ,url(../img/header-image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: rgb(255, 255, 255);
+}
+
+.logo{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 2%;
+    left: 20%;
+}
+
+.heading{
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translateY(-70%);
+    transform: translateX(-50%);
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.208);
+}
+
+.nav{
+    display: inline-block;
+    position: absolute;
+    top: 4%;
+    right: 20%;
+}
+
+.nav li{
+    margin-left: 35px ;
+    display: inline-block;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+
+.heading h2{
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.heading p{
+    letter-spacing: 2px;
+    font-family: Montserrat;
+    font-weight: 300;
+    margin:15px ;
+}
+
+.btn1{
+    text-decoration: none;
+    color: rgb(226, 49, 17);
+    background-color: white;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    text-align: center;
+    padding:10px;
+    height: 2.7em;
+    width: 12em;
+    font-family: Montserrat;
+    border-radius: 40px;
+
+}
+
+
+/* #################################################### */
+
+.btn2{
+    border: 2px solid rgba(244, 66, 35, 0.9);
+    text-decoration: none;
+    color: rgb(226, 49, 17);
+    background-color: white;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    padding:6px;
+    height: 2.5em;
+    width:6em;
+    font-family: Montserrat;
+    border-radius: 40px;
+}
+
+
+.feature{
+    box-sizing: border-box;
+    background-color: rgba(128, 128, 128, 0.429);
+    width: 100%;
+    height: 130vh;
+    position: relative;
+    
+}
+
+.con1,.con2{
+    height: 35%;
+    width: 60%;
+    position: absolute;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.272);
+}
+
+.con1{
+    background-color: rgb(255, 255, 255);
+    top: 10%;
+    left: 20%;
+    right: 20%;
+}
+
+.con1 .img{
+    width: 50%;
+    height: 100%;
+    background-image: url(../img/showcase-photo3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+
+}
+
+.con1 .text{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+}
+
+.con2{
+    background-color: rgb(255, 255, 255);
+    bottom: 10%;
+    left: 20%;
+    right: 20%;
+    
+}
+.con2 .img{
+    width: 50%;
+    height: 100%;
+    background-image: url(../img/showcase-photo1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    
+
+}
+
+.con2 .text{
+    float: left;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+}
+
+
+.con1 h2,.con2 h2{
+    font-family: Montserrat;
+    font-size: 3rem;
+    margin-top: 5px;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.con1 p,.con2 p{
+    padding: 15px;
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    font-weight: 300;
+    word-spacing: 5px
+}
+
+.con1 .btn2,.con2 .btn2{
+    position: relative;
+    top: 10px;
+    left: 15px;
+    margin-bottom: 20px;
+}
+
+
+/* ########################################################## */
+
+.moreinfo{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoDiv{
+    height: 60%;
+    width: 60%;
+    display: flex;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.731);
+    overflow: auto;
+    
+}
+
+.infoDiv .co1,.co2,.co3{
+    color: white;
+    height: 100%;
+}
+
+
+.co1,.co3{
+    padding-top: 5px ;
+    text-align: center;
+    float: left;
+    background-color: rgb(39,50,59);
+}
+.co2{
+    padding-top: 5px ;
+    text-align: center;
+    float: left;
+    background-color: rgb(239,71,92);
+}
+
+.co1 h3,.co2 h3,.co3 h3{
+    font-family:Montserrat ;
+    font-size: larger;
+    margin-top: 4px;
+    margin-bottom: 6px;
+}
+
+.infoDiv p{
+    font-family:Montserrat ;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.co1 i,.co3 i{
+    color: rgb(239,71,92);
+}
+
+/* ########################################################### */
+
+
+.footer{
+    height: 15vh;
+    width: 100%;
+    background-color: rgb(39,50,59);
+    text-align: center;
+}
+
+.abc{
+    color: rgb(201, 199, 199);
+    margin: 15px;
+}
+
+.footer p{
+    word-spacing: 4px;
+    font-family:Montserrat ;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: rgb(201, 199, 199);
+}
